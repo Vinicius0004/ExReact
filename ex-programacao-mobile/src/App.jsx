@@ -1,11 +1,16 @@
 import './App.css'
-import ReactEx from './Ex01/ReactEx';
+import Calculadora from './Ex01/Calculadora';
+import Massa from './Ex02/Massa';
+
 
 function App() {
   
   return (
-    <ReactEx />
-  )
-
+  <>
+    <Calculadora />
+    <Massa />
+  </>
+  );
 }
+
 export default App;
